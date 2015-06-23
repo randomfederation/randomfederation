@@ -17,9 +17,26 @@
 		</header>
 		<main>
 			<h1>Официальный курс валюты Центрального Банка Рандомной Федерации на <?php echo russian_date();?>:</h1>
-			<h2>Доллар США: <?php echo $dollarCost;?></h2>
-			<h2>У вас имеется: <?php echo $rubHave;?></h2>
-			<h2>Вы можете купить: <?php echo $dollarAmount;?> дол.</h2>
+			<h2>Доллар США: <?= $dollarCost_display;?></h2>
+			<h2>У вас имеется: <?= $rubHave_display;?></h2>
+			<h2>Вы можете купить: <?= $dollarAmount_display;?></h2>
+			<h3><?php
+			var_dump($dollarCostWhole);
+				echo "$dollarCostWhole<br>";
+				var_dump($dollarCostCents);
+				echo "$dollarCostCents<br>";
+				var_dump($dollarCost);
+				echo "$dollarCost<br>";
+				var_dump($rubHaveWhole);
+				echo "$rubHaveWhole<br>";
+				var_dump($rubHaveKop);
+				echo "$rubHaveKop<br>";
+				var_dump($rubHave);
+				echo "$rubHave<br>";
+				var_dump($dollarAmount);
+				echo "$dollarAmount<br>";
+
+			?></h3>
 			<input class="reload-button" type="button" value="Обновить" onClick="window.location.reload()">
 		</main>
 		<footer>

@@ -20,7 +20,7 @@
 			<h1>AVE mt_rand()!</h1>
 		</main>
 		<footer>
-			<span class="copy">&copy; <?php echo date('Y')?> Рандомная Федерация | Все права защищены</span>
+			<span class="copy">&copy; <?= date('Y')?> Рандомная Федерация | Все права защищены</span>
 			<a href="currency.php">Узнайте курс валют!</a>
 			<a href="dice.php">Сыграйте в кости с президентом прямо сейчас!</a>
 		</footer>

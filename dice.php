@@ -1,3 +1,4 @@
+<?php include 'functions.php';?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -7,7 +8,6 @@
 	<link rel="stylesheet" href="styles/dice.css">
 </head>
 <body>
-	<?php include 'functions.php';?>
 	<div class="wrapper center">
 		<div class="github">
 			<a href="https://github.com/randomfederation/randomfederation/blob/master/dice.php" class="github-link" title="Github сурс для dice.php" target="_blank"></a>
@@ -20,7 +20,7 @@
 			<h2>К сожалению, президент сейчас в командировке.</h2>
 		</main>
 		<footer>
-			<span class="copy">&copy; <?php echo date('Y')?> Министерство развлечений Рандомной Федерации | Все права защищены</span>
+			<span class="copy">&copy; <?= date('Y')?> Министерство развлечений Рандомной Федерации | Все права защищены</span>
 			<a href="index.php">Главная</a>
 			<a href="currency.php">Узнайте курс валют!</a>
 		</footer>

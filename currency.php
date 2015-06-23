@@ -25,7 +25,7 @@
 		<footer>
 			<span class="copy">&copy; <?= date('Y')?> Министерство финансов Рандомной Федерации | Все права защищены</span>
 			<a href="index.php">Главная</a>
-			<a href="dice.php">Сыграйте в кости с президентом прямо сейчас!</a>
+			<a href="dice.php">Сыграйте в кости с президентом прямо сейчас!</a>asdasd
 		</footer>
 	</div>
 </body>

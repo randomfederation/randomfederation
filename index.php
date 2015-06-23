@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
+	<?php include 'functions.php';?>
 	<div class="wrapper center">
 		<div class="github">
 			<a href="http://github.com" class="github-link" title="Github сурс для index.php" target="_blank"></a>

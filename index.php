@@ -1,3 +1,5 @@
+<?php include 'functions.php';?>
+<!-- https://github.com/randomfederation/randomfederation/blob/master/functions.php -->
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -7,7 +9,6 @@
 	<link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-	<?php include 'functions.php';?>
 	<div class="wrapper center">
 		<div class="github">
 			<a href="https://github.com/randomfederation/randomfederation/blob/master/index.php" class="github-link" title="Github сурс для index.php" target="_blank"></a>

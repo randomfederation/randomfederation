@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="styles/dice.css">
 </head>
 <body>
+	<?php include 'functions.php';?>
 	<div class="wrapper center">
 		<div class="github">
 			<a href="https://github.com/randomfederation/randomfederation/blob/master/dice.php" class="github-link" title="Github сурс для dice.php" target="_blank"></a>

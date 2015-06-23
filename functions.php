@@ -1,5 +1,7 @@
 <?php 
+
 	//English to russian month`s names convertion
+
 	function russian_date() {
 		$date = explode(".", date("d.m.Y"));
 		switch ($date[1]) {
@@ -20,6 +22,7 @@
 	}
 
 	//Dollars convertion task
+	
 	$dollarCost = mt_rand(1 , 100).' руб. '.mt_rand(1 , 99). ' коп.';
 	$rubHave = mt_rand(1 , 10000).' руб. '.mt_rand(1 , 99). ' коп.';
 	$dollarAmount = round($rubHave / $dollarCost, 2);

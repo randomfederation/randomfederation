@@ -14,7 +14,6 @@
 		</div>
 		<header>
 			<a href="index.php"><img src="img/rand-fed-logo.png" alt="rand fed logo"></a>
-			<!-- <img src="http://i.imgur.com/SET67TJ.png" alt=""> -->
 		</header>
 		<main>
 			<h1>Официальный курс валюты Центрального Банка Рандомной Федерации на <?php echo russian_date();?>:</h1>
@@ -24,7 +23,7 @@
 			<input class="reload-button" type="button" value="Обновить" onClick="window.location.reload()">
 		</main>
 		<footer>
-			<span class="copy">&copy <?php echo date('Y')?> Министерство финансов Рандомной Федерации | Все права защищены</span>
+			<span class="copy">&copy; <?php echo date('Y')?> Министерство финансов Рандомной Федерации | Все права защищены</span>
 			<a href="index.php">Главная</a>
 			<a href="dice.php">Сыграйте в кости с президентом прямо сейчас!</a>
 		</footer>

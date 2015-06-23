@@ -14,14 +14,13 @@
 		</div>
 		<header>
 			<a href="index.php"><img src="img/rand-fed-logo.png" alt="rand fed logo"></a>
-			<!-- <img src="http://i.imgur.com/SET67TJ.png" alt=""> -->
 		</header>
 		<main>
 			<h1>Добро пожаловать на официальный сайт Рандомной Федерации!</h1>
 			<h1>AVE mt_rand()!</h1>
 		</main>
 		<footer>
-			<span class="copy">&copy <?php echo date('Y')?> Рандомная Федерация | Все права защищены</span>
+			<span class="copy">&copy; <?php echo date('Y')?> Рандомная Федерация | Все права защищены</span>
 			<a href="currency.php">Узнайте курс валют!</a>
 			<a href="dice.php">Сыграйте в кости с президентом прямо сейчас!</a>
 		</footer>

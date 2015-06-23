@@ -10,7 +10,7 @@
 	<?php include 'functions.php';?>
 	<div class="wrapper center">
 		<div class="github">
-			<a href="http://github.com" class="github-link" title="Github сурс для index.php" target="_blank"></a>
+			<a href="https://github.com/randomfederation/randomfederation/blob/master/index.php" class="github-link" title="Github сурс для index.php" target="_blank"></a>
 		</div>
 		<header>
 			<a href="index.php"><img src="img/rand-fed-logo.png" alt="rand fed logo"></a>
